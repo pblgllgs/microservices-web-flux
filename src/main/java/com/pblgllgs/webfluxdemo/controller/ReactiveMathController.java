@@ -19,7 +19,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.Map;
 
-//@RestController
+@RestController
 @RequestMapping("/reactive-math")
 @Slf4j
 public class ReactiveMathController {
