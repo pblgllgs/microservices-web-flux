@@ -16,7 +16,7 @@ import reactor.core.publisher.Flux;
 @RequestMapping("/jobs")
 public class ParamsController {
 
-    @GetMapping("search")
+    @GetMapping("/search")
     public Flux<Integer> searchJobs(
             @RequestParam("count") int count,
             @RequestParam("page") int page
